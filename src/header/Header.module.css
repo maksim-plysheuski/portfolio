@@ -5,3 +5,8 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.navBlock {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}

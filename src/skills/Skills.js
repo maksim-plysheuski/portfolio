@@ -10,11 +10,9 @@ function Skills() {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
-                    <Skill title={"HTML/CSS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi esse facere harum hic illo ipsam neque officia, praesentium quam reprehenderit temporibus unde ut."}/>
-                    <Skill title={"JS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi esse facere harum hic illo ipsam neque officia, praesentium quam reprehenderit temporibus unde ut."}/>
-                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi esse facere harum hic illo ipsam neque officia, praesentium quam reprehenderit temporibus unde ut."}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi esse facere harum hic illo ipsam neque officia, praesentium quam reprehenderit temporibus unde ut."}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi esse facere harum hic illo ipsam neque officia, praesentium quam reprehenderit temporibus unde ut."}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi esse facere harum hic illo ipsam neque officia, praesentium quam reprehenderit temporibus unde ut."}/>
-
-
+                    <Skill title={"HTML/CSS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit consectetur adipisicing elit"}/>
+                    <Skill title={"JS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit "}/>
+                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/>
                 </div>
             </div>
         </div>

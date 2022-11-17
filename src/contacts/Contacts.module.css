@@ -1,0 +1,50 @@
+.contactsBlock {
+    height: 50vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsContainer {
+    border: 1px solid;
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactsForm {
+    border: 1px solid;
+    min-width: 180px;
+    width: 60%;
+    height: 150px;
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+}
+input {
+    min-height: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    background-color: cadetblue;
+}
+
+
+
+
+
+

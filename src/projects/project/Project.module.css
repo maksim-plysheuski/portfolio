@@ -1,6 +1,6 @@
 .project {
-    background-color: beige;
     width: 250px;
+    background-color: beige;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,13 +8,23 @@
 }
 
 
-.picture  {
+.pictureContainer  {
     width: 100%;
-    height: 150px;
+    min-height: 150px;
+    border: 1px solid;
+    position: relative;
     background-color: cadetblue;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.openButton {
+    border: 1px solid;
+    margin: 0 auto;
+    width: 30%;
+    min-height: 25px;
+    background-color: darkgray;
 }
 
 

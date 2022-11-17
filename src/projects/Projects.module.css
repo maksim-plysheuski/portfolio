@@ -1,20 +1,20 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
+    max-height: max-content;
     background-color: burlywood;
 }
 
 .projectsContainer {
    flex-direction: column;
     justify-content: flex-start;
-
 }
 .title {
     background-color: cadetblue;
 }
 
 .projects {
-    width: 100%;
     border: 1px solid;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
