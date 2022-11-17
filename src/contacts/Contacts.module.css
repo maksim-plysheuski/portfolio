@@ -18,9 +18,10 @@
 
 .contactsForm {
     border: 1px solid;
-    min-width: 180px;
+    min-width: 280px;
+    max-width: 800px;
     width: 60%;
-    height: 150px;
+    height: 180px;
     margin-bottom: 5px;
 
     display: flex;
@@ -32,7 +33,7 @@
 
 textarea {
     resize: none;
-    height: 100%;
+    height: 80%;
 }
 input {
     min-height: 20px;

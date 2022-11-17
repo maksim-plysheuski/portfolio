@@ -33,6 +33,7 @@
     margin: 15px;
     background-color: darkgray;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 

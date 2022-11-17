@@ -13,8 +13,6 @@ function Project(props) {
             <span className={style.description}>
                 {props.description}
             </span>
-
-
         </div>
     );
 }
