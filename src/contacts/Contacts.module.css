@@ -1,24 +1,24 @@
 .contactsBlock {
-    height: 50vh;
     background-color: darkgray;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .contactsContainer {
     border: 1px solid;
     height: 80%;
     width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 15px 15px;
 }
 
 .contactsForm {
     border: 1px solid;
-    min-width: 280px;
+    min-width: 260px;
     max-width: 800px;
     width: 60%;
     height: 180px;
