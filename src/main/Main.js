@@ -3,7 +3,6 @@ import style from "./Main.module.css"
 import styleContainer from "../common/styles/container.module.css"
 
 
-
 function Main() {
     return (
         <div className={style.mainBlock}>

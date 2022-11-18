@@ -11,7 +11,7 @@ function Contacts() {
                     <input type="text"/>
                     <textarea></textarea>
                 </form>
-                <button className={style.button}>Send</button>
+                <button>Send</button>
             </div>
         </div>
     );

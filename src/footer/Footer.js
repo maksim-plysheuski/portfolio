@@ -4,7 +4,7 @@ import containerStyle from "../common/styles/container.module.css"
 
 
 export const Footer = () => {
-    return(
+    return (
         <footer className={style.footerBlock}>
             <div className={`${style.footerContainer} ${containerStyle.container}`}>
                 <span>Maksim Plysheuski</span>
