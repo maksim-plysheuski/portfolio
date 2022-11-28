@@ -12,7 +12,7 @@ function Skills() {
                 <div className={style.skills}>
                     <Skill title={"HTML/CSS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit consectetur adipisicing elit"}/>
                     <Skill title={"JS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit "}/>
-                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/>
+                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/>
                 </div>
             </div>
         </div>
