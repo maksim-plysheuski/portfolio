@@ -12,11 +12,11 @@ function Projects() {
                 <Title title={"Projects"}/>
                 <div className={style.projects}>
                     <Project title={"Todolist"}
-                             description={"orem ipsum dolor sit amet orem ipsum dolor sit amet, consectetur"}/>
+                             description={"React, Redux, TypeScript, Material UI, Unit Tests"}/>
                     <Project title={"Social Network"}
-                             description={"orem ipsum dolor sit amet, consectetur adipisicing elit."}/>
+                             description={"React, Redux, TypeScript, Material UI, Unit Tests"}/>
                     <Project title={"Counter"}
-                             description={"orem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis cumque dolor eius eligendi "}/>
+                             description={"React, Redux, TypeScript, Material UI, Unit Tests"}/>
                 </div>
             </div>
         </div>

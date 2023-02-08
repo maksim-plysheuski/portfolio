@@ -27,20 +27,20 @@
     background-color: rgb(245, 101, 57);
     width: 55px;
     height: 1px;
-    bottom: -1114px;
+    bottom: -1180px;
     left: 50%;
     transform: translate(-50%, 50%);
 }
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1129px){
+
+@media screen and (max-width: 1143px){
     .projects {
         justify-content: center;
     }

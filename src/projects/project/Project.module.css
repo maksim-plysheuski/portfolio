@@ -1,22 +1,26 @@
 .project {
-    width: 450px;
-    background-color: beige;
+    width: 304px;
+    background-color: rgba(181, 181, 181, 0.91);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
+    background-color: rgb(255, 118, 77);
+    height: 360px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 
 .pictureContainer  {
     width: 100%;
     min-height: 150px;
-    border: 1px solid;
-    background-color: cadetblue;
+    background-color: rgb(255, 118, 77);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0 0;
 }
 
 .openButton {
@@ -27,13 +31,26 @@
     background-color: darkgray;
 }
 
+.projectTitle {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(234, 234, 234);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.525rem;
+    text-align: center;
+}
+
 
 .description {
+    color: rgb(234, 234, 234);
     border: 1px black solid;
     margin: 15px;
-    background-color: darkgray;
+    background-color: rgb(24 24 24);
     padding: 5px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
 }
 
 
