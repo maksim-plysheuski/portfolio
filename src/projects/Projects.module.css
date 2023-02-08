@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: max-content;
-    background-color: burlywood;
+    background-color: rgb(33, 33, 33);
 }
 
 .projectsContainer {
@@ -9,7 +9,27 @@
 }
 
 .title {
-    background-color: cadetblue;
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(245, 101, 57);
+    width: 55px;
+    height: 1px;
+    bottom: -1114px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .projects {
@@ -18,4 +38,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1129px){
+    .projects {
+        justify-content: center;
+    }
 }
