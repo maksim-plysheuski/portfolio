@@ -1,0 +1,22 @@
+.title {
+    margin: 0 0 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: rgb(245, 101, 57);
+    text-transform: capitalize;
+    position: relative;
+    .title h2 {
+        margin: 0;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: rgb(245, 101, 57);
+        width: 55px;
+        height: 1px;
+        bottom: -1123px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
