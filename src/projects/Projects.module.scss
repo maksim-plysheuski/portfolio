@@ -1,5 +1,7 @@
+@import "src/common/styles/saas/variables";
+
 .projectsBlock {
-  background-color: rgb(33, 33, 33);
+  background-color: $bgColor;
   padding: 100px 0;
 
   .projectsContainer {
