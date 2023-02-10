@@ -1,0 +1,23 @@
+.projectsBlock {
+  background-color: rgb(33, 33, 33);
+  padding: 100px 0;
+
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media screen and (max-width: 1143px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+

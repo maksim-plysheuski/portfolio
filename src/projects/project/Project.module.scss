@@ -12,6 +12,16 @@
     margin: 10px;
 }
 
+.projectTitle {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(234, 234, 234);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.525rem;
+    text-align: center;
+    margin: 15px;
+}
+
 
 .image  {
     width: 100%;
@@ -24,8 +34,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 45%;
+    position: relative;
 }
 
+/*.image::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}*/
 
 .openButton {
     border: 1px solid;
@@ -33,16 +53,6 @@
     width: 30%;
     min-height: 25px;
     background-color: darkgray;
-}
-
-.projectTitle {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(234, 234, 234);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.525rem;
-    text-align: center;
-    margin: 15px;
 }
 
 
