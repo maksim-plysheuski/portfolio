@@ -5,13 +5,17 @@ import style from "./Project.module.css"
 function Project(props) {
     return (
         <div className={style.project}>
-            <div className={style.pictureContainer}>
+            <h3 className={style.projectTitle}>{props.title}</h3>
+            <div className={style.image} style={props.style}>
                 <a className={style.openButton}>Open</a>
             </div>
-            <h3 className={style.projectTitle}>{props.title}</h3>
-            <span className={style.description}>
-                {props.description}
-            </span>
+            <p className={style.description}>{props.description}</p>
+            <div className={style.stack}>
+                <span>
+                    React Redux TypeScript
+                </span>
+            </div>
+
         </div>
     );
 }

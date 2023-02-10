@@ -1,15 +1,15 @@
 .projectsBlock {
-    min-height: max-content;
     background-color: rgb(33, 33, 33);
+    padding-bottom: 40px;
 }
 
 .projectsContainer {
-   flex-direction: column;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
 .title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .title h2 {
