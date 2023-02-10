@@ -1,4 +1,5 @@
 @import "src/common/styles/saas/variables";
+@import "src/common/styles/saas/mixins";
 
 .project {
     width: 304px;
@@ -14,12 +15,10 @@
     margin: 10px;
     .projectTitle {
         font-family: 'Poppins', sans-serif;
-        color: $textColor;
-        font-style: normal;
-        font-weight: 500;
         font-size: 1.525rem;
         text-align: center;
         margin: 15px;
+        @include text(500, 1.525rem)
     }
     .image {
         width: 100%;
