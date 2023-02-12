@@ -13,8 +13,8 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
-            <Skills/>
             <Projects/>
+            <Skills/>
             <Contacts/>
             <Footer/>
         </div>
@@ -22,3 +22,18 @@ function App() {
 }
 
 export default App;
+
+/*
+<Routes>
+    <Route path="/" element={ <Home/> } />
+    <Route path="about" element={ <About/> } />
+    <Route path="contact" element={ <Contact/> } />
+</Routes>*/
+
+
+/*<Header/>
+<Main/>
+<Skills/>
+<Projects/>
+<Contacts/>
+<Footer/>*/

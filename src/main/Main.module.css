@@ -1,15 +1,99 @@
 .mainBlock {
     height: 100vh;
-    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-.text {
-    width: 300px;
-    background-color: cadetblue;
+.mainBlockContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
 }
 
-.photo {
-    width: 300px;
-    height: 400px;
-    background-color: cadetblue;
+.leftSide {
+    flex: 35% 1;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: crimson;
 }
+
+.leftSideContent {
+    flex: 35% 1;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.iconsBlock {
+    margin: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+
+.iconsBlock a {
+    margin-left: 10px;
+}
+
+.rightSide {
+    flex: 65% 1;
+    height: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.rightSideContent {
+    border: 1px solid black;
+    width: 45%;
+    margin-right: 7rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.profilePhoto {
+    max-width: 400px;
+    width: 45%;
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%);
+    /*width: var(--img-size);
+    height: var(--img-size);*/
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+}
+
+.buttonsContainer {
+    margin-top: 2rem;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*@media (max-width: 1100px) {
+    .profilePhoto {
+        --img-size: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+    .landing--img {
+        --img-size: 300px;
+    }
+}*/
+
+
+
