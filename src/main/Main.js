@@ -3,6 +3,7 @@ import style from "./Main.module.css"
 import photo from "../assets/image/profilePhoto.png"
 import {NavLink} from "react-router-dom";
 import resume from "../assets/pdf/resume.jpg"
+import {Button} from "@material-ui/core";
 
 
 function Main() {
@@ -25,11 +26,8 @@ function Main() {
                         was coming and she hoped she was preparessd.</p>
                     <div className={style.buttonsContainer}>
                         <a href={resume} download='resume' target='_blank'rel='noreferrer'>
-                            <Button className={style.resumeBtn}>Download CV</Button>
+                            <button className={style.resumeBtn}>Download CV</button>
                         </a>
-                        <NavLink to='/#contacts' smooth={true} spy='true' duration={2000}>
-                            <button className={style.contactBtn}>Contact</button>
-                        </NavLink>
                     </div>
                 </div>
             </div>

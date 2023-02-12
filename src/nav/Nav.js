@@ -9,7 +9,7 @@ function Nav() {
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/skills">Skills</NavLink>
             <NavLink to="">About</NavLink>
-            <NavLink to="/contacts">Contacts</NavLink>
+            <NavLink to="/contacts">Contact</NavLink>
         </div>
     );
 }
