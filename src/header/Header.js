@@ -4,11 +4,11 @@ import Nav from "../nav/Nav";
 
 function Header() {
     return (
-        <div className={style.header}>
-            <div className={`${style.navBlock}`}>
-                <Nav/>
+            <div className={style.header}>
+                <div className={`${style.navBlock}`}>
+                    <Nav/>
+                </div>
             </div>
-        </div>
     );
 }
 
