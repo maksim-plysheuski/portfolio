@@ -15,7 +15,7 @@
       height: 100%;
       display: flex;
       align-items: flex-end;
-      background-color: rgb(245, 101, 57);
+      background-color: $primaryOrange;
 
       .socialIconsBlock {
         margin: 30px;
@@ -25,7 +25,7 @@
         justify-content: flex-start;
 
         .icon {
-          color: rgb(33, 33, 33);
+          color: $bgColor;
           font-size: 30px;
           margin: 0 1rem;
           transition: transform 0.5s;
@@ -35,7 +35,7 @@
           }
 
           @media screen and (max-width: 1000px) {
-            color: rgb(33, 33, 33);
+            color: $bgColor;
             font-size: 25px;
             margin: 0 1rem;
             transition: transform 0.5s;
@@ -82,7 +82,7 @@
     .rightSide {
       flex: 65% 1;
       height: 100%;
-      background-color: rgb(33, 33, 33);
+      background-color: $bgColor;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -97,7 +97,6 @@
           @include text(500, 1.25rem);
           margin-bottom: -0.85rem;
           opacity: 0.6;
-          color: rgb(234, 234, 234);
           @media screen and (max-width: 1000px) {
             font-size: 0.9rem;
           }
@@ -168,26 +167,25 @@
           justify-content: space-between;
 
           .resumeBtn {
-            color: rgb(245, 101, 57);
+            @include text(500, 1rem);
+            color: $primaryOrange;
             width: 150px;
-            border: 3px solid rgb(245, 101, 57);
+            border: 3px solid $primaryOrange;
             height: 50px;
-            font-size: 1rem;
             transition: 250ms ease-in;
-            font-weight: 500;
             border-radius: 30px;
             font-family: "Poppins", sans-serif;
             background-color: rgb(33, 33, 33);
 
             &:hover {
               background-color: rgba(245, 101, 57, 0.6);
-              color: rgb(234, 234, 234);
+              color: $textColor;
               cursor: pointer;
             }
 
             @media (max-width: 1000px) {
               width: 140px;
-              border: 3px solid rgb(245, 101, 57);
+              border: 3px solid $primaryOrange;
               height: 45px;
               font-size: 0.9rem;
             }

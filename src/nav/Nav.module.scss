@@ -5,6 +5,7 @@
     width: 350px;
     display: flex;
     justify-content: space-between;
+
     a {
         @include text(400, 1rem);
         text-decoration: none;
