@@ -6,6 +6,7 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {SkillsSlider} from "./skills/skills-slider/SkillsSlider";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
+            <SkillsSlider/>
             <Projects/>
             <Skills/>
             <Contacts/>
