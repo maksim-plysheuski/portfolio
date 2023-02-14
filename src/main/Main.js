@@ -2,10 +2,7 @@ import React from "react";
 import style from "./Main.module.css"
 import photo from "../assets/image/profilePhoto.png"
 import resume from "../assets/pdf/resume.jpg"
-import {
-    FaLinkedin,
-    FaGithub,
-} from 'react-icons/fa';
+import {FaLinkedin, FaGithub} from 'react-icons/fa';
 import {SiCodewars} from "react-icons/si";
 
 

@@ -38,7 +38,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid black;
 }
 
 .socialIcon {
@@ -62,8 +61,9 @@
     justify-content: center;
 }
 
+
+
 .rightSideContent {
-    border: 1px solid white;
     width: 45%;
     margin-right: 15%;
     font-style: normal;
@@ -115,13 +115,13 @@
     justify-content: space-between;
 }
 
-.buttonsContainer button {
+.resumeBtn {
     color: rgb(245, 101, 57);
     width: 150px;
     border: 3px solid rgb(245, 101, 57);
     height: 50px;
     font-size: 1rem;
-    transition: 600ms ease-out;
+    transition: 250ms ease-in;
     font-weight: 500;
     border-radius: 30px;
     font-family: "Poppins", sans-serif;
@@ -130,7 +130,7 @@
 
 
 button:hover {
-    background-color: rgba(245, 101, 57, 0.43);
+    background-color: rgba(245, 101, 57, 0.6);
     color: rgb(234, 234, 234);
     cursor: pointer;
 }
@@ -150,11 +150,11 @@ button:hover {
         font-size: 0.9rem;
         width: 90%;
     }
-    .buttonsContainer button {
-        width: 130px;
-        border: 2px solid rgb(245, 101, 57);
-        height: 40px;
-        font-size: 0.8rem;
+    .resumeBtn {
+        width: 140px;
+        border: 3px solid rgb(245, 101, 57);
+        height: 45px;
+        font-size: 0.9rem;
     }
     .socialIcon {
         color: rgb(33, 33, 33);
@@ -172,16 +172,18 @@ button:hover {
     }
 
     .profilePhoto {
-        --img-size: 200px;
+        --img-size: 250px;
+        min-width: 210px;
+        width: 35%;
         left: 50%;
-        top: 20%;
-        border: 8px solid #eaeaea;
+        top: 30%;
+        border: 8px solid rgb(33, 33, 33);
         transform: translate(-50%, -50%);
     }
     .leftSide {
         flex: initial;
         width: 100%;
-        height: 20%;
+        height: 30%;
     }
     .iconsBlock {
         display: none;
@@ -190,13 +192,13 @@ button:hover {
         box-sizing: border-box;
         padding: 0 2rem;
         flex: initial;
-        height: 80%;
+        height: 70%;
         width: 100%;
         align-items: center;
         justify-content: center;
     }
     .rightSideContent {
-        margin-top: 5%;
+        margin-top: 20%;
         margin-right: initial;
         width: 100%;
     }
@@ -214,43 +216,33 @@ button:hover {
         margin: 0 auto;
         width: 90%;
     }
+    .buttonsContainer {
+        width: 30%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
 }
 
-/*@media screen and (max-width: 440px) {
-    .rightSide {
-        justify-content: flex-start;
-        padding-top: 6rem;
-    }
-
+@media screen and (max-width: 440px) {
     .rightSideContent h6 {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         text-align: center;
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
     .rightSideContent h1 {
-        font-size: 1.8rem;
+        font-size: 2.1rem;
         text-align: center;
     }
     .rightSideContent p {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         text-align: center;
         margin: 0 auto;
         width: 80%;
     }
-}*/
-
-/*
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-    .mainBlock {
-        height: 100%;
-    }
-
-    .profilePhoto {
-        --img-size: 150px;
-        left: 50%;
-        top: 20%;
-    }
-}*!*/
+}
 
 
 
