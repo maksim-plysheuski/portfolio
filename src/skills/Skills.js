@@ -86,9 +86,7 @@ function Skills() {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={"Skills"}/>
                 <div className={style.skills}>
-                    <Skill title={"HTML/CSS"}/> description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit consectetur adipisicing elit"}
-                    <Skill title={"JS"}/>
-                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/><Skill title={"React"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit"}/><Skill title={"React"}/>
+                    {skillsData.map(s => <Skill key={s.id} title={s.title} icon={s.icon}/>)}
                 </div>
             </div>
         </div>
