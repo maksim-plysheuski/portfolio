@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-top: 2rem;
 }
 
 .skillScroll {
@@ -12,50 +13,10 @@
 }
 
 
-.skillBox {
-    background: rgb(33, 33, 33);
-    box-shadow: rgb(245 101 57 / 30%) 0 0px 30px;
-    border-radius: 10px;
-    width: 160px;
-    height: 160px;
-    margin: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 1rem;
-    transition: 300ms ease-in-out;
-}
-
-.skillIcon {
-    font-size: 50px;
-    border-radius: 7px;
-    color: #f565394d;
-}
-
-.skillIcon .h3 {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
-
-.skillBox:hover  {
-    transform: scale(1.15);
-}
 
 
-.skillBox > img {
-    height: 50px;
-    pointer-events: none;
-}
 
 
-.skillBox h3 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    text-align: center;
-    margin-top: 1rem;
-}
 
 
 .marquee {
@@ -63,6 +24,7 @@
 }
 
 
+/*
 @media (min-width: 992px) and (max-width: 1380px) {
     .skills {
         padding: 2rem 1rem 1rem 1rem;
@@ -156,4 +118,4 @@
 
 @media only screen and (device-width: 768px) {
 
-}
+}*/

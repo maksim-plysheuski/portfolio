@@ -1,0 +1,42 @@
+.skillBox {
+    background: rgb(33, 33, 33);
+    box-shadow: rgb(245 101 57 / 30%) 0 0px 30px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    transition: 300ms ease-in-out;
+}
+
+.skillIcon {
+    font-size: 60px;
+    border-radius: 7px;
+    color: #f565394d;
+}
+
+.skillBox h3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(245, 101, 57, 0.6);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.skillBox:hover  {
+    transform: scale(1.15);
+    box-shadow: rgba(245, 101, 57, 0.6) 0 0px 20px;
+}
+
+
+
+.skillBox > img {
+    height: 50px;
+    pointer-events: none;
+}
