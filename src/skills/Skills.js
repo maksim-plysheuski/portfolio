@@ -15,6 +15,7 @@ import {
     SiTypescript
 } from "react-icons/si";
 import {FaLaptopCode} from "react-icons/fa";
+import Header from "../header/Header";
 
 
 function Skills() {
@@ -83,9 +84,14 @@ function Skills() {
 
     return (
         <div className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title title={"Skills"}/>
-                <div className={style.skills}>
+            <div className={style.skillsHeader}>
+                <Title title="Skills"/>
+            </div>
+            <div className={style.skillsBody}>
+                <p>
+                    Everyday I try to find out something new to improve my skills.<br/>Practice makes perfect.
+                </p>
+                <div className={style.skillsBodyContainer}>
                     {skillsData.map(s => <Skill key={s.id} title={s.title} icon={s.icon}/>)}
                 </div>
             </div>
