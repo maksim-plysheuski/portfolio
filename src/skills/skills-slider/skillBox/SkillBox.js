@@ -1,13 +1,12 @@
 import React from "react"
-import {SiJavascript} from "react-icons/si";
 import styles from "./SkillBox.module.css"
 
 
 export const SkillBox = (props) => {
     return (
-        <div className={styles.skillBox}>
-            <SiJavascript className={styles.skillIcon}/>
-            <h3>Javascript</h3>
-        </div>
+        props.skills.map(s => <div key={s.id} className={styles.skillBox}>
+            <div className={styles.skillIcon}>{s.icon}</div>
+            <h3>{s.title.toUpperCase()}</h3>
+        </div>)
     )
 }
