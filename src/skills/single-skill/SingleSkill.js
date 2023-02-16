@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./SingleSkill.module.scss"
-import Fade from "react-reveal/Fade";
 
 
 function SingleSkill({id, title, icon}) {

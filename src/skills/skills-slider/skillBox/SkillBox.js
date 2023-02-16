@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./SkillBox.module.css"
+import styles from "./SkillBox.module.scss"
 
 
 export const SkillBox = (props) => {

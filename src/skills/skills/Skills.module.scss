@@ -1,13 +1,10 @@
+@import "src/common/styles/saas/variables";
+@import "src/common/styles/saas/mixins";
+
 .skillsBlock {
-    background-color: rgb(33, 33, 33);
     min-height: 100vh;
-    border: 1px solid white;
     height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
     flex-wrap: wrap;
     padding-top: 80px;
     .skillsBody {
@@ -17,13 +14,11 @@
         justify-content: flex-start;
         margin-bottom: 100px;
         p {
-            font-family: "Poppins", sans-serif;
+            @include text(400, 1.15rem);
             color: rgba(234, 234, 234, 0.7);
             width: 60%;
             text-align: center;
             margin-bottom: 5rem;
-            font-weight: 400;
-            font-size: 1.15rem;
             margin-top: 1.5rem;
             opacity: 0.6;
         }
@@ -31,12 +26,83 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 4.5rem;
-            width: 100%;
+            gap: 1rem;
             flex-wrap: wrap;
         }
     }
 }
+
+
+
+
+/*@media (min-width: 992px) and (max-width: 1380px) {
+    .skillsBlock {
+        padding: 2.7rem;
+    }
+    .skillsBody > p {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .skillsBlock {
+        padding: 1.7rem;
+    }
+
+    .skillsBody > p {
+        font-size: 1.25rem;
+        width: 85%;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .skillsBodyContainer {
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .skillsBlock {
+        padding: 1rem;
+    }
+    .skillsBody > p {
+        font-size: 1.05rem;
+        width: 95%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .skillsBodyContainer{
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skillsBlock {
+        padding: 0.5rem;
+    }
+    .skillsBody p{
+        width: 80%;
+    }
+    .skillsBodyContainer {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width:
+        480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}*/
 
 
 

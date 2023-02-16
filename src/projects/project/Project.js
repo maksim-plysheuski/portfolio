@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Project.module.scss"
-import Fade from "react-reveal/Fade";
+
 
 
 
 function Project(props) {
     return (
-        <Fade bottom>
             <div className={style.project}>
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <div className={style.image} style={props.style}>
@@ -19,7 +18,7 @@ function Project(props) {
                 </span>
                 </div>
             </div>
-        </Fade>
+
     );
 }
 

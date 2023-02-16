@@ -2,16 +2,16 @@
 @import "src/common/styles/saas/mixins";
 
 .singleSkill {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2.2rem;
+  padding: 1.1rem;
   transition: transform 300ms ease-in-out;
-  background-color: $primaryOrange;
+  background-color: $secondaryOrange;
 
   .singleSkillContent {
     position: relative;
@@ -19,13 +19,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem;
+    padding: 1.1rem;
     color: $textColor;
 
     h3 {
-      @include text(500, 14px);
+      @include text(400, 15px);
       position: absolute;
-      top: 60%;
+      top: 50%;
       height: 60px;
       display: flex;
       align-items: center;
@@ -33,20 +33,15 @@
       font-style: normal;
       text-align: center;
       line-height: 110%;
+      padding-bottom: 0.2rem;
     }
 
     .icon {
       position: absolute;
       top: 5%;
+      padding: 0.5rem;
+      font-size: 2.5rem;
     }
-
-    .icon > svg {
-      font-size: 2.3rem;
-    }
-  }
-
-  &:hover {
-    transform: scale(1.06);
   }
 
   &:hover svg {

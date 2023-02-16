@@ -1,0 +1,41 @@
+@import "src/common/styles/saas/variables";
+@import "src/common/styles/saas/mixins";
+
+.skillBox {
+    background: $bgColor;
+    box-shadow: $thirdOrange 0 0 30px;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    transition: 300ms ease-in-out;
+    .skillIcon {
+        font-size: 30px;
+        border-radius: 7px;
+        color: rgba(245, 101, 57, 0.45);
+    }
+    h3 {
+        @include text(500, 12px);
+        font-family: "JetBrains Mono", monospace;
+        color: rgba(245, 101, 57, 0.6);
+        font-style: normal;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    &:hover  {
+        transform: scale(1.07);
+        box-shadow: rgba(245, 101, 57, 0.6) 0 0 20px;
+    }
+    img {
+        height: 50px;
+        pointer-events: none;
+    }
+}
+
+
+
