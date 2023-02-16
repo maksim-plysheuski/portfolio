@@ -4,6 +4,7 @@ import photo from "../assets/image/profilePhoto.png"
 import resume from "../assets/pdf/resume.jpg"
 import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {SiCodewars} from "react-icons/si";
+import Typewriter from 'typewriter-effect';
 
 
 function Main() {
@@ -25,7 +26,12 @@ function Main() {
             <img className={style.profilePhoto} src={photo} alt="profile-photo"/>
             <div className={style.rightSide}>
                 <div className={style.rightSideContent}>
-                    <h6>Frontend React Developer</h6>
+                    <div className={style.typeWriter}><Typewriter
+                        onInit={(typewriter) => {
+                            typewriter.typeString('Frontend React Developer')
+                                .start();
+                        }}
+                    /></div>
                     <h1>Maksim Plysheuski</h1>
                     <p>JavaScript has made space in all companies irrespective of whether they are big or small. It is
                         convenient and valuable and can create interactive applications and web pages for customers.</p>
