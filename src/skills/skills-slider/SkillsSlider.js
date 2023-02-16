@@ -1,7 +1,7 @@
 import React from 'react';
 import Marquee from "react-fast-marquee";
 import {SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiGit, SiRedux, SiPostman, SiSass, SiMaterialui, SiStorybook} from "react-icons/si";
-import styles from "./SkillsSlider.module.css"
+import styles from "./SkillsSlider.module.scss"
 import {SkillBox} from "./skillBox/SkillBox";
 import {FaLaptopCode} from "react-icons/fa";
 

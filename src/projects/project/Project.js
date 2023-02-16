@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Project.module.scss"
 
 
+
 function Project(props) {
     return (
         <div className={style.project}>

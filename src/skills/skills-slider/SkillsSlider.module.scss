@@ -6,26 +6,27 @@
     justify-content: center;
     width: 100%;
     padding-top: 60px;
+    .skillScroll {
+        border: 1px solid black;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .marquee {
+        padding: 3rem 0;
+    }
 }
 
-.skillScroll {
-    border: 1px solid black;
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 
 
 
 
 
-.marquee {
-    padding: 3rem 0;
-}
+
+
 
 
 /*

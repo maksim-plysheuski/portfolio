@@ -1,7 +1,7 @@
 import React from "react";
-import style from "./Skills.module.css"
+import style from "./Skills.module.scss"
 import styleContainer from "../common/styles/container.module.css"
-import Skill from "./skill/Skill";
+import SingleSkill from "./single-skill/SingleSkill";
 import {Title} from "../common/components/Title";
 import {
     SiCss3,
@@ -15,7 +15,6 @@ import {
     SiTypescript
 } from "react-icons/si";
 import {FaLaptopCode} from "react-icons/fa";
-import Header from "../header/Header";
 
 
 function Skills() {
@@ -84,15 +83,13 @@ function Skills() {
 
     return (
         <div className={style.skillsBlock}>
-            <div className={style.skillsHeader}>
                 <Title title="Skills"/>
-            </div>
             <div className={style.skillsBody}>
                 <p>
                     Everyday I try to find out something new to improve my skills.<br/>Practice makes perfect.
                 </p>
                 <div className={style.skillsBodyContainer}>
-                    {skillsData.map(s => <Skill key={s.id} title={s.title} icon={s.icon}/>)}
+                    {skillsData.map(s => <SingleSkill key={s.id} title={s.title} icon={s.icon}/>)}
                 </div>
             </div>
         </div>
