@@ -2,7 +2,7 @@ import React from "react";
 import "./App.module.css"
 import Header from "./header/Header";
 import Main from "./main/Main";
-import Skills from "./skills/Skills";
+import Skills from "./skills/skills/Skills";
 import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
