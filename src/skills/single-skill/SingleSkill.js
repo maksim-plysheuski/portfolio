@@ -3,7 +3,7 @@ import style from "./Skill.module.css"
 import Fade from "react-reveal/Fade";
 
 
-function Skill({id, title, icon}) {
+function SingleSkill({id, title, icon}) {
     return (
         <Fade bottom>
             <div key={id} className={style.singleSkill}>
@@ -16,4 +16,4 @@ function Skill({id, title, icon}) {
     );
 }
 
-export default Skill;
+export default SingleSkill;
