@@ -14,7 +14,7 @@
         justify-content: flex-start;
         margin-bottom: 100px;
         p {
-            @include text(400, 1.15rem);
+            @include text(400, 1rem);
             color: rgba(234, 234, 234, 0.7);
             width: 60%;
             text-align: center;

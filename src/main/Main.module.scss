@@ -55,7 +55,7 @@
     }
 
     .profilePhoto {
-      max-width: 400px;
+      max-width: 350px;
       width: 45%;
       position: absolute;
       left: 35%;
@@ -95,36 +95,29 @@
 
 
         .typeWriter {
-          @include text(500, 1.25rem);
+          @include text(500, 1rem);
           margin-bottom: -0.85rem;
           opacity: 0.6;
           color: $textColor;
-          @media screen and (max-width: 1000px) {
-            font-size: 0.9rem;
-          }
+
           @media screen and (max-width: 800px) {
-            font-size: 1.3rem;
             text-align: center;
           }
           @media screen and (max-width: 440px) {
-            font-size: 1.1rem;
             text-align: center;
             padding: 0 2rem;
-          }
-          @media screen and (max-width: 380px) {
-            font-size: 0.9rem;
           }
         }
 
         h1 {
-          @include text(600, 3.25rem);
+          @include text(600, 2.4rem);
           line-height: 110%;
           margin: 1rem 0;
           @media screen and (max-width: 1000px) {
             font-size: 2.3rem;
           }
           @media screen and (max-width: 800px) {
-            font-size: 3rem;
+            font-size: 2.2rem;
             text-align: center;
           }
           @media screen and (max-width: 440px) {
@@ -137,7 +130,7 @@
         }
 
         p {
-          @include text(500, 1.15rem);
+          @include text(500, 0.95rem);
           margin-top: 1.5rem;
           opacity: 0.6;
           @media screen and (max-width: 1000px) {
@@ -145,13 +138,13 @@
             width: 90%;
           }
           @media screen and (max-width: 800px) {
-            font-size: 1.3rem;
+            font-size: 0.9rem;
             text-align: center;
             margin: 0 auto;
             width: 90%;
           }
           @media screen and (max-width: 440px) {
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             text-align: center;
             margin: 0 auto;
             width: 80%;
