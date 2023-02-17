@@ -13,7 +13,7 @@ function Skills() {
             <div className={`${styleContainer.container} ${style.skillsBody}`}>
                 <Title title="Skills"/>
                 <p>
-                    Everyday I try to find out something new to improve my skills.<br/>Practice makes perfect.
+                    I improve my skills everyday.<br/>Practice makes perfect.
                 </p>
                 <div className={style.skillsBodyContainer}>
                     {skillsData.map(s => <SingleSkill key={s.id} title={s.title} icon={s.icon}/>)}
