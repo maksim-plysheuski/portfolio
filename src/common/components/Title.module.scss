@@ -4,7 +4,7 @@
     margin: 0 0 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     color: $primaryOrange;
     text-transform: capitalize;
     position: relative;
@@ -20,5 +20,11 @@
         bottom: -15px;
         left: 50%;
         transform: translate(-50%, 50%);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .title {
+        font-size: 1.6rem;
     }
 }

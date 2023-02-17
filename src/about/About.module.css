@@ -1,29 +1,29 @@
 .aboutBlock {
-    height: 100vh;
-    background-color: burlywood;
+    height: max-content;
+    background-color: rgb(33, 33, 33);
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid black;
 }
 
 .lineStyling {
     width: 80%;
     height: 15px;
-    background-color: rgb(245, 101, 57);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .stylCircle {
-    background-color: ghostwhite;
+    background-color: rgb(245, 101, 57);
     height: 10px;
     width: 10px;
     border-radius: 50%;
 }
 
 .styleLine {
-    background-color: black;
+    background-color: rgb(245, 101, 57);
     height: 5px;
     width: 95%;
     border-radius: 5px;
@@ -32,34 +32,43 @@
 .aboutBody {
     height: 100%;
     width: 80%;
-    background-color: darkgrey;
-    background-color: red;
-
 }
 
 .aboutContent{
     width: 80%;
     height: min-content;
-    background-color: cadetblue;
+    border: 1px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 50px;
+    flex-wrap: wrap;
 }
 
 .aboutDescription {
-    background-color: olive;
-    width: 300px;
+    border: 1px solid black;
+    width: 500px;
+    margin-bottom: 30px;
 }
 
 .aboutPhoto {
     background-color: gray;
-    height: 50px;
-    width: 80px;
+    height: 450px;
+    width: 350px;
 }
 
+.aboutDescription h2 {
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #f56539;
+}
 
-
-
+.aboutDescription p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color:  rgba(234, 234, 234, 0.8);
+}
 
 
 @media screen and (max-width: 650px){
@@ -76,5 +85,11 @@
     .styleLine {
         height: 3px;
         width: 93%;
+    }
+}
+
+@media screen and (max-width: 1349px) {
+    .aboutDescription {
+        text-align: center;
     }
 }
