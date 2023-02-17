@@ -7,6 +7,7 @@ import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 import {SkillsSlider} from "./skills/skills-slider/SkillsSlider";
+import About from "./about/About";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <SkillsSlider/>
             <Projects/>
             <Skills/>
+            <About />
             <Contacts/>
             <Footer/>
         </div>

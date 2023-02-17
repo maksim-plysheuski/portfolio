@@ -1,0 +1,23 @@
+.aboutBlock {
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+.lineStyling {
+    width: 80%;
+    height: 5px;
+    background-color: rgb(245, 101, 57)
+}
+
+.stylCircle {}
+
+.styleLine {}
+
+.aboutBody {
+    height: 100%;
+    width: 80%;
+    background-color: darkgrey;
+
+}

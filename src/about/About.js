@@ -1,4 +1,6 @@
-
+import React from "react";
+import styles from "./About.module.css"
+import containerStyles from "../common/styles/container.module.css"
 
 
 
@@ -6,19 +8,18 @@
 function About() {
 
     return (
-        <div className={style.aboutBlock}>
-            <div className={style.lineStyling}>
-                <div className={style.stylCircle}></div>
-                <div className={style.lineStyling}></div>
-                <div className={style.lineStyling}></div>
+        <div className={styles.aboutBlock}>
+            <div className={styles.lineStyling}>
+                <div className={styles.stylCircle}></div>
+                <div className={styles.stylCircle}></div>
+                <div className={styles.styleLine}></div>
             </div>
-            <div className={styles.aboutBody}>
+            <div className={`${styles.aboutBody} ${containerStyles}`}>
                 <div className={styles.aboutDescription}>
                     <h2 >"title</h2>
-                    <p>"descroption"<br/>
-                        <br/>"description2"</p>
+                    <p>"descroption""</p>
                 </div>
-                <div className={style.aboutPhoto}>
+                <div className={styles.aboutPhoto}>
                     <img
 
                     />
