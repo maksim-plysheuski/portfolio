@@ -154,3 +154,34 @@ input:focus {
     transform: scale(1.06);
     background-color: rgb(234, 234, 234);
 }
+
+.contactsDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 0.6;
+    box-sizing: border-box;
+    padding-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.personalDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.personalDetails p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-left: 1.5rem;
+    color: rgba(234, 234, 234, 0.7);
+    line-height: 110%;
+    word-break: break-word;
+}
