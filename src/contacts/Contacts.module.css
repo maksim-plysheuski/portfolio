@@ -185,3 +185,48 @@ input:focus {
     line-height: 110%;
     word-break: break-word;
 }
+
+.socialIcons {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 4.2rem;
+}
+
+.detailsIcon {
+    background-color: rgb(245, 101, 57);
+    color: rgb(33, 33, 33);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    transition: 250ms ease-in-out;
+    flex-shrink: 0;
+}
+
+.detailsIcon:hover {
+    transform: scale(1.1);
+    color: rgb(33, 33, 33);
+    background-color: rgb(234, 234, 234);
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    background-color: rgb(245, 101, 57);
+    color: rgb(33, 33, 33);
+    transition: 250ms ease-in-out;
+}
+
+.socialIcon:hover {
+    transform: scale(1.1);
+    background-color: rgb(234, 234, 234);
