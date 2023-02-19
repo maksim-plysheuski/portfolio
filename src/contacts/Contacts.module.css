@@ -1,10 +1,23 @@
 .contactsBlock {
-    background-color: rgb(33, 33, 33);
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 80px;
 }
+
+.introText {
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: rgba(234, 234, 234, 0.7);
+    width: 60%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+
 
 .contactsContainer {
     border: 1px solid;
@@ -43,6 +56,23 @@ input {
 .contactsContainer h2 {
     background-color: rgb(33, 33, 33);
 }
+
+.contactsForm {
+    display: flex;
+    flex: 0.7;
+    width: 100%;
+
+}
+
+.contactsForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
 
 
 
