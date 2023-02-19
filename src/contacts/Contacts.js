@@ -16,16 +16,6 @@ function Contacts() {
                 I am open to new opportunities. <br/> Please chose the most convenient way to contact with me.
             </p>
             <div className={style.contactsContainer}>
-                {/*<Title title={"Contacts"}/>
-                <form className={style.contactsForm}>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <textarea></textarea>
-                </form>
-                <button>Send</button>
-                */}
-
-
                 <div className={style.contactsBody}>
                     <div className={style.contactsForm}>
                         <form>
