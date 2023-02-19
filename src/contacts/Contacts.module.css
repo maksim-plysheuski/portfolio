@@ -78,7 +78,6 @@ input:focus {
 }
 
 
-
 .formMessage {
     height: 155px;
     box-sizing: border-box;
@@ -109,7 +108,7 @@ input:focus {
     font-weight: 500;
     font-size: 0.9rem;
     padding: 0 8px;
-    transform: translate(25px,50%);
+    transform: translate(25px, 50%);
     display: inline-flex;
 }
 
@@ -135,19 +134,21 @@ input:focus {
     padding: 15px;
 
 }
+
 .submitBtn {
     transition: 250ms ease-in-out;
 }
 
-.submitIcon{
+.submitIcon {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .sendIcon {
     font-size: 20px;
     transform-origin: center;
-    transform: translate(-10px,-3px) rotate(-30deg);
+    transform: translate(-10px, -3px) rotate(-30deg);
 }
 
 .submitBtn button:hover {
@@ -230,3 +231,74 @@ input:focus {
 .socialIcon:hover {
     transform: scale(1.1);
     background-color: rgb(234, 234, 234);
+}
+
+@media screen and (max-width: 1434px) {
+    .contactsContainer {
+        padding: 25px 25px 0 25px;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .contactsContainer {
+        padding: 25px 0 0 0;
+    }
+
+    .contactsDetails {
+        padding-left: 2.5rem;
+    }
+
+    .personalDetails p {
+        font-size: 0.9rem;
+        margin-left: 10px;
+    }
+
+    .submitBtn {
+        align-self: center;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .contactsBody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactsForm {
+        width: 80%;
+    }
+
+    .inputForm {
+        margin-bottom: 0.45rem;
+    }
+
+    .contactsDetails {
+        padding: 2rem 0 0 0;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .socialIcons {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .contactsForm {
+        width: 100%;
+    }
+
+    .inputForm {
+        border: 3px solid rgb(245, 101, 57);
+    }
+
+    .formMessage {
+        border: 3px solid rgb(245, 101, 57);
+    }
+}
