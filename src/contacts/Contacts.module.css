@@ -34,3 +34,69 @@
     justify-content: flex-start;
     width: 100%;
 }
+
+.contactsForm {
+    display: flex;
+    flex: 0.7;
+    width: 100%;
+
+}
+
+.contactsForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.inputContainer {
+    width: 100%;
+}
+
+
+.inputForm {
+    height: 45px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 1.3rem;
+    padding: 0.7rem 0.7rem;
+    border-radius: 20px;
+    width: 100%;
+    resize: none;
+    background-color: rgb(33, 33, 33);
+    border: 4px solid rgb(245, 101, 57);
+    color: rgb(245, 101, 57);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    transition: border 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+input:focus {
+    border: 4px solid white;
+}
+
+
+
+.formMessage {
+    height: 155px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 1.3rem;
+    padding: 0.7rem 0.7rem;
+    width: 100%;
+    resize: none;
+    background-color: rgb(33, 33, 33);
+    color: rgb(245, 101, 57);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: border 0.2s ease-in-out;
+    border: 4px solid rgb(245, 101, 57);
+}
+
+.formMessage:focus {
+    border: 4px solid rgb(234, 234, 234);
+}
