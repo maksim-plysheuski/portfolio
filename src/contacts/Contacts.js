@@ -1,10 +1,9 @@
 import React from "react";
-import style from "./Contacts.module.css"
+import style from "./Contacts.module.scss"
 import {Title} from "../common/components/Title";
 import {FaLinkedinIn, FaGithub, FaTelegramPlane, FaPhone, FaSkype} from "react-icons/fa";
-import {AiOutlineSend, AiOutlineCheckCircle} from "react-icons/ai";
-import {FiPhone, FiAtSign} from "react-icons/fi";
-import {HiOutlineLocationMarker} from "react-icons/hi";
+import {AiOutlineSend} from "react-icons/ai";
+import {FiAtSign} from "react-icons/fi";
 
 const email = "plysheuski.maksim@gmail.com"
 
@@ -23,27 +22,25 @@ function Contacts() {
                                 <label htmlFor="Name" className={style.label}>
                                     Name
                                 </label>
-                                <input type="text" name="Name" className={style.inputForm}/>
+                                <input type="text" name="Name" className={style.inputNameEmail}/>
                             </div>
                             <div className={style.inputContainer}>
                                 <label htmlFor="Email" className={style.label}>
                                     Email
                                 </label>
-                                <input type="email" name="Email" className={style.inputForm}/>
+                                <input type="email" name="Email" className={style.inputNameEmail}/>
                             </div>
                             <div className={style.inputContainer}>
                                 <label className={style.label} htmlFor="Message">
                                     Message
                                 </label>
                                 <textarea placeholder="Type your message..." type="text" name="Message"
-                                          className={style.formMessage}/>
+                                          className={style.textAreaMessage}/>
                             </div>
                             <div className={style.submitBtn}>
                                 <button type="submit">
                                     <p>Send</p>
-                                    <div className={style.submitIcon}>
-                                        <AiOutlineSend className={style.sendIcon}/>
-                                    </div>
+                                    <AiOutlineSend className={style.submitIcon}/>
                                 </button>
                             </div>
                         </form>
@@ -100,7 +97,6 @@ function Contacts() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );
