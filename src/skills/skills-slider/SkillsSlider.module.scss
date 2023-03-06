@@ -1,7 +1,6 @@
 @import "src/common/styles/saas/variables";
 
 .skillsSliderBlock {
-    border: 1px solid black;
     background-color: $bgColor;
     display: flex;
     align-items: center;
@@ -9,7 +8,6 @@
     width: 100%;
     padding-top: 60px;
     .skillScroll {
-        border: 1px solid black;
         width: 100%;
         display: flex;
         justify-content: center;

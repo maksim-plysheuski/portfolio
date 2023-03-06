@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./About.module.css"
-import containerStyles from "../common/styles/container.module.css"
-import {Title} from "../common/components/Title";
 
 
 function About() {
@@ -16,9 +14,9 @@ function About() {
             <div className={styles.aboutContent}>
                 <div className={styles.aboutDescription}>
                     <h2>About Me</h2>
-                    <p>My name is Maksim. I'm a frontend developer based in Minsk, Belarus. <br/><br/>messaging for communication between colleagues. In the 2010s, the sending of short informal messages became an accepted part of many cultures, as happened earlier with emailing. This makes texting a quick and easy way to communicate with friends, family and colleagues, including in contexts where a call would be impolite or inappropriate (e.g., calling very late at night or when one knows the other person is busy with family or work activities). </p>
+                    <p>My name is Maksim. I'm a frontend developer based in Minsk, Belarus. <br/><br/> I’m experienced developer in building apps using React, JavaScript, TypeScript. I aim to enhance my skills in this field, stay updated with the latest technologies and expand my stack with new tools. In my free time, I enjoy solving code challenges on Codewars and improving my English language.</p>
                 </div>
-                <div className={styles.aboutPhoto}>PHOTO</div>
+                {/*<div className={styles.aboutPhoto}>PHOTO</div>*/}
             </div>
         </div>
     )

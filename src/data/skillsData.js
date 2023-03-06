@@ -1,5 +1,6 @@
 import {SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiGit, SiRedux, SiPostman, SiSass, SiMaterialui, SiStorybook} from "react-icons/si";
 import {FaLaptopCode} from "react-icons/fa";
+import {AiFillApi} from "react-icons/ai";
 
 export const skillsData = [
     {
@@ -19,7 +20,7 @@ export const skillsData = [
     },
     {
         id: "4",
-        title: "Redux",
+        title: "Redux Toolkit (query)",
         icon: <SiRedux/>
     },
     {
@@ -61,5 +62,10 @@ export const skillsData = [
         id: "12",
         title: "Unit Testing",
         icon: <FaLaptopCode/>
+    },
+    {
+        id: "13",
+        title: "REST API",
+        icon: <AiFillApi/>
     },
 ]

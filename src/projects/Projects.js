@@ -27,11 +27,9 @@ function Projects() {
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title={"Projects"}/>
                 <div className={style.projects}>
-                    <Project style={todolist} title={"Todolist"}
-                             description={"React, Redux, TypeScript, Material UI, Unit Tests"}/>
-                    <Project style={social} title={"Social Network"}
-                             description={"React, Redux, TypeScript, Material UI, Unit Tests"}/>
-                    <Project style={counter} title={"Counter"}
+                    <Project style={todolist} title={"Tasks Manager"}
+                             description={"React, TypeScript, JavaScript, Redux Toolkit, Redux-Thunk, Unit Tests, REST API, Axios, Formik, HTML, CSS Module, SASS, Material UI"}/>
+                    <Project style={social} title={"LinguaLearn"}
                              description={"React, Redux, TypeScript, Material UI, Unit Tests"}/>
                 </div>
             </div>
