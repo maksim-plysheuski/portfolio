@@ -1,0 +1,30 @@
+@import "../../styles/saas/variables";
+
+.title {
+    margin: 0 0 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: $primaryOrange;
+    text-transform: capitalize;
+    position: relative;
+    .title h2 {
+        margin: 0;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: $primaryOrange;
+        width: 55px;
+        height: 1px;
+        bottom: -15px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .title {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,114 @@
+@import "src/common/styles/saas/variables";
+@import "src/common/styles/saas/mixins";
+
+.singleSkill {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.1rem;
+  transition: transform 300ms ease-in-out;
+  background-color: $secondaryOrange;
+
+  .singleSkillContent {
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.1rem;
+    color: $textColor;
+
+    h3 {
+      @include text(500, 16px);
+      font-family: "JetBrains Mono", monospace;
+      position: absolute;
+      top: 50%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: normal;
+      text-align: center;
+      line-height: 110%;
+      padding-bottom: 0.2rem;
+    }
+
+    .icon {
+      position: absolute;
+      top: 5%;
+      padding: 5px;
+      font-size: 35px;
+    }
+  }
+
+  &:hover svg {
+    animation: magic 0.8s ease-in-out both;
+  }
+}
+
+
+@keyframes magic {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -6px);
+  }
+  50% {
+    transform: translate(0, 0px);
+  }
+  75% {
+    transform: translate(0, -3px);
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .single-service {
+    width: 160px;
+    height: 160px;
+    padding: 1.2rem 1.2rem;
+  }
+  .service-icon > svg {
+    font-size: 2.5rem;
+  }
+
+  .service-content > h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .single-service {
+    width: 160px;
+    height: 160px;
+    padding: 1.2rem 1.2rem;
+  }
+  .service-icon > svg {
+    font-size: 2.5rem;
+  }
+
+  .service-content > h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .singleSkill {
+    width: 150px;
+    height: 150px;
+    padding: 1.2rem 1.2rem;
+  }
+  .icon > svg {
+    font-size: 2.2rem;
+  }
+
+  .singleSkillContent > h3 {
+    font-size: 13px;
+    top: 50%;
+  }
+}

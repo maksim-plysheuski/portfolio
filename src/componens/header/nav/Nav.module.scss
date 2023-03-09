@@ -1,0 +1,29 @@
+@import "../../../common/styles/saas/mixins";
+@import "../../../common/styles/saas/variables";
+
+.nav {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        @include text(400, 1rem);
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 300ms ease-out;
+        &:hover {
+            color: rgb(245, 101, 57);
+        }
+        @media (max-width: 800px) {
+            &:hover {
+                color: $bgColor;
+            }
+        }
+        @media (max-width: 600px) {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+
+

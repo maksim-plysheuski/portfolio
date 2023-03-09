@@ -1,0 +1,76 @@
+@import "../../../common/styles/saas/variables";
+@import "../../../common/styles/saas/mixins";
+
+.project {
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+  max-height: max-content;
+  border-radius: 10px;
+  margin: 5px;
+
+  .projectTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.525rem;
+    text-align: center;
+    margin-top: 20px;
+    @include text(500, 1.525rem)
+  }
+
+  .icon {
+    margin-top: 5px;
+    font-size: 45px;
+    color: $secondWhite;
+  }
+
+  .stack {
+    padding: 5px;
+    color: black;
+    background-color: $secondaryOrange;
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+
+    .btn {
+      @include text(400, 14px);
+      color: $primaryOrange;
+      width: 100px;
+      border: 1px solid $primaryOrange;
+      height: 30px;
+      transition: 250ms ease-in;
+      border-radius: 30px;
+      background-color: #2b2b2b;
+
+      &:hover {
+        background-color: rgba(245, 101, 57, 0.6);
+        color: $textColor;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

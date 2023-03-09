@@ -1,20 +1,19 @@
 import React from "react";
-import "./App.module.css"
-import Header from "./header/Header";
-import Main from "./main/Main";
-import Skills from "./skills/skills/Skills";
-import Projects from "./projects/Projects";
-import Contacts from "./contacts/Contacts";
-import {Footer} from "./footer/Footer";
-import {SkillsSlider} from "./skills/skills-slider/SkillsSlider";
-import About from "./about/About";
+import Header from "./componens/header/Header";
+import Home from "./componens/home/Home";
+import Skills from "./componens/skills/Skills";
+import Contacts from "./componens/contacts/Contacts";
+import {Footer} from "./componens/footer/Footer";
+import {SkillsSlider} from "./componens/skills/skillsSlider/SkillsSlider";
+import About from "./componens/about/About";
+import {Projects} from "./componens/projects/Projects";
 
 
 function App() {
     return (
-        <div className="App">
+        <div>
             <Header/>
-            <Main/>
+            <Home/>
             <SkillsSlider/>
             <Projects/>
             <Skills/>

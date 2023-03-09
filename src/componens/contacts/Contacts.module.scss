@@ -1,0 +1,51 @@
+@import "../../common/styles/saas/variables";
+@import "../../common/styles/saas/mixins";
+
+.contactsBlock {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 80px;
+
+  .introText {
+    @include text(400, 1rem);
+    width: 60%;
+    text-align: center;
+    opacity: 0.6;
+  }
+
+
+    .contactsBody {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+
+      @media screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media screen and (max-width: 1434px) {
+      padding: 25px 25px 0 25px;
+      align-items: center;
+
+    }
+    @media screen and (max-width: 1050px) {
+      padding: 25px 0 0 0;
+    }
+  }
+
+input:-webkit-autofill,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px $bgColor inset !important;
+  -webkit-text-fill-color: white !important;
+}
+

@@ -1,0 +1,24 @@
+@import "../../common/styles/saas/variables";
+@import "../../common/styles/saas/mixins";
+
+.footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        @include text(500, 0.9rem);
+        span {
+            font-size: 1.1rem;
+            color: $primaryOrange
+        }
+    }
+}
+
+
+
+
+
+
+
