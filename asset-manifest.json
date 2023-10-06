@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.92f1ca0b.css",
-    "main.js": "/portfolio/static/js/main.a44a40df.js",
+    "main.css": "/portfolio/static/css/main.fa64c5a4.css",
+    "main.js": "/portfolio/static/js/main.0a4f7d7e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profilePhoto.png": "/portfolio/static/media/profilePhoto.f97d57ee0ca2ba47fdf1.png",
-    "static/media/resume.jpg": "/portfolio/static/media/resume.c2c3451a4e3416b374d0.jpg",
-    "static/media/todolist.svg": "/portfolio/static/media/todolist.2f2c63cb75464d32fe5c2412c7e84059.svg",
-    "static/media/counter.svg": "/portfolio/static/media/counter.95f8cc7634fd7a46e4ddfa3d68e3779c.svg",
+    "static/media/Frontend Developer Maksim Plysheuski CV.pdf": "/portfolio/static/media/Frontend Developer Maksim Plysheuski CV.34cae922d8a26e343dfa.pdf",
     "index.html": "/portfolio/index.html",
-    "static/media/socialNetwork.svg": "/portfolio/static/media/socialNetwork.e895f6de46ec902e29a88b7f5af643e2.svg",
-    "main.92f1ca0b.css.map": "/portfolio/static/css/main.92f1ca0b.css.map",
-    "main.a44a40df.js.map": "/portfolio/static/js/main.a44a40df.js.map",
+    "main.fa64c5a4.css.map": "/portfolio/static/css/main.fa64c5a4.css.map",
+    "main.0a4f7d7e.js.map": "/portfolio/static/js/main.0a4f7d7e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92f1ca0b.css",
-    "static/js/main.a44a40df.js"
+    "static/css/main.fa64c5a4.css",
+    "static/js/main.0a4f7d7e.js"
   ]
 }
