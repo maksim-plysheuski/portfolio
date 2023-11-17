@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Main.module.scss"
 import photo from "../../assets/image/profilePhoto.png"
-import resume from "../../assets/pdf/Frontend Developer Maksim Plysheuski CV.pdf"
+import resume from "../../assets/pdf/Frontend Developer - Maksim Plyseuski CV.pdf"
 import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {SiCodewars} from "react-icons/si";
 import {Typewriter} from "react-simple-typewriter"
