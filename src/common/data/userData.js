@@ -18,7 +18,7 @@ export const userData = {
     homePageText: 'I enjoy creating web applications that provide real value to the end user.',
     email: "plysheuski.maksim@gmail.com",
     phone: '+375447406523',
-    telegram: 'https://t.me/reskaurd',
+    telegram: 'https://t.me/plysheuski',
     gitHub: 'https://github.com/maksim-plysheuski',
     codeWars: 'https://www.codewars.com/users/maksim-plysheuski',
     linkedIn: 'https://www.linkedin.com/in/maksim-plysheuski',
