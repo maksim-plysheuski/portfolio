@@ -9,7 +9,7 @@ import {userData} from "../../common/data/userData";
 
 
 function Home() {
-    return <div className={style.mainBlock} id='home'>
+    return <div className={style.mainBlock} id="home">
         <div className={style.mainBlockContainer}>
             <div className={style.leftSide}>
                 <div className={style.socialIconsBlock}>
