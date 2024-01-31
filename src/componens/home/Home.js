@@ -41,13 +41,13 @@ function Home() {
                     </div>
                     <h1>{userData.name}</h1>
                     <p>{userData.homePageText}</p>
-                    <div className={style.buttonsContainer}>
-                        <a href={resume}
-                           download="Front-end Developer Maksim Plysheuski CV"
-                           target="_blank" rel="noreferrer">
-                            <button className={style.resumeBtn}>Download CV</button>
-                        </a>
-                    </div>
+                    {/*<div className={style.buttonsContainer}>*/}
+                    {/*    <a href={resume}*/}
+                    {/*       download="Front-end Developer Maksim Plysheuski CV"*/}
+                    {/*       target="_blank" rel="noreferrer">*/}
+                    {/*        <button className={style.resumeBtn}>Download CV</button>*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>
